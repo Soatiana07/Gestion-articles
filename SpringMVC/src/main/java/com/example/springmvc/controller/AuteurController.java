@@ -34,7 +34,7 @@ public class AuteurController {
         ModelAndView modelAndView = new ModelAndView();
         List<Auteur> ad = adminService.findByEmailAndPassword(auteur);
         if (ad.size() != 0){
-            redirect = "/choix";
+            redirect = "/";
         }
         else {
             redirect = "/auteurs/login";
