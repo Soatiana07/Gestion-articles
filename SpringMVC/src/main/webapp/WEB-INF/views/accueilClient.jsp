@@ -116,7 +116,7 @@
                 <%= liste.get(i).getTitre() %>
               </h5>
               <% } %>
-              <% if(liste.get(i).getType() == 1){ %>
+              <% if(liste.get(i).getType() == 2){ %>
               <h5>
                 <%= liste.get(i).getTitre() %>
               </h5>
