@@ -34,7 +34,7 @@ public class ContenuController {
     @Autowired
     TypeService typeService;
 
-    @GetMapping("choix")
+    @GetMapping("/")
     public ModelAndView afficherChoix(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("listetype",typeService.getAllType());
